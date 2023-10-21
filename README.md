@@ -9,6 +9,8 @@
 ![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/1f99f8e2-32fd-4b2d-ad8c-ea56fc074637)
 
 ***
+# THE WHOLE APPLICATION CONSIST OF **3** `SUB-APPLICATIONS` 
+# 1._AUTHENTICATOR_                         2._TABLE EDITOR_                     3._COMMAND INTERPRETER_
 ## **Lets Talk About The _TABLE EDITOR?_ SHALL WE?**
 ***
 ## THE WHOLE _TABLE EDITOR_ CONSISTS OF `4` ELEMENTS MANLY 
