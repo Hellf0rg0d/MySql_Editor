@@ -1,12 +1,14 @@
-# ~~Bored~~ of Writing _DML_?? OR ~~Bored~~ of Writing _INSERT_ , _UPDATE_ , _DELETE_? 
+![thirdorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/3317f1fb-8926-4e23-bb79-57f76232580c)# ~~Bored~~ of Writing _DML_?? OR ~~Bored~~ of Writing _INSERT_ , _UPDATE_ , _DELETE_? 
 ##  SAY NO MORE! 
 ***
 # INTRODUCING MYSQL TABLE EDITOR A GUI 
 ![orgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/23967bda-6c40-434e-ae93-b4ec155bfd9f)
 ***
-![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/ee4233b8-814e-4f58-99a6-a1da6acccfb9)
+![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/c2c63d87-27de-40bb-9f37-9e98eb014420)
+
 ***
-![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/1f99f8e2-32fd-4b2d-ad8c-ea56fc074637)
+![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/a518fdac-4405-4ee6-a9bc-9123530a713f)
+
 
 ***
 # THE WHOLE APPLICATION CONSIST OF **3** `SUB-APPLICATIONS` 
@@ -18,14 +20,17 @@
 ***
 ## THE WHOLE _TABLE EDITOR_ CONSISTS OF `4` ELEMENTS MANLY 
 1.**THE TABLE EDITOR** 
-![firstorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/af558804-bfeb-491b-b71e-b11bb8d2e612)
+![fourthorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/54ce9f70-c223-40ac-96bf-13d6809a2302)
+
 ***
 2.**REFRESH BUTTON**
-![secondorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/09d330c4-b6c9-4e0e-b2c6-0f59613c9397)
+![secondorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/efd824be-bfaf-450a-9477-14e695e6368b)
+
 ***
 3.**DELETE BUTTON**
-![thirdorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/d7207857-3ad0-4947-8419-90dbc2d27243)
+![thirdorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/e3101223-203f-4b10-ad11-e89469981d0b)
 ***
 4.**CUI _(Command line user interface to communicate with the respective database)_**
-![fourthorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/351973ea-9361-4025-ac84-95fb67c1e6f5)
+![fourthorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/885d58be-131e-4c8d-a2c5-d165a8daf16c)
+
 ***
