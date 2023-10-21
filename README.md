@@ -20,8 +20,7 @@
 ***
 ## THE WHOLE _TABLE EDITOR_ CONSISTS OF `4` ELEMENTS MANLY 
 1.**THE TABLE EDITOR** 
-![fourthorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/54ce9f70-c223-40ac-96bf-13d6809a2302)
-
+![firstorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/747f908f-dda1-4ed1-bea3-bcf2d518dd0f)
 ***
 2.**REFRESH BUTTON**
 ![secondorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/efd824be-bfaf-450a-9477-14e695e6368b)
