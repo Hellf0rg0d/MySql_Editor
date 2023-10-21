@@ -1,4 +1,4 @@
-![thirdorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/339b85bb-8e4a-4a5b-a72e-e20b6bb41997)# ~~Bored~~ of Writing _DML_?? OR ~~Bored~~ of Writing _INSERT_ , _UPDATE_ , _DELETE_? 
+# ~~Bored~~ of Writing _DML_?? OR ~~Bored~~ of Writing _INSERT_ , _UPDATE_ , _DELETE_? 
 ##  SAY NO MORE! 
 ***
 # INTRODUCING MYSQL TABLE EDITOR A GUI 
