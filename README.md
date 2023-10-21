@@ -15,12 +15,12 @@
 1.**THE TABLE EDITOR** 
 ![firstorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/af558804-bfeb-491b-b71e-b11bb8d2e612)
 ***
-1.**REFRESH BUTTON**
+2.**REFRESH BUTTON**
 ![secondorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/09d330c4-b6c9-4e0e-b2c6-0f59613c9397)
 ***
-1.**DELETE BUTTON**
+3.**DELETE BUTTON**
 ![thirdorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/d7207857-3ad0-4947-8419-90dbc2d27243)
 ***
-1.**CUI _(Command line user interface to communicate with the respective database)_**
+4.**CUI _(Command line user interface to communicate with the respective database)_**
 ![fourthorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/351973ea-9361-4025-ac84-95fb67c1e6f5)
 ***
