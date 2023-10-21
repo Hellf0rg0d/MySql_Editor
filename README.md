@@ -11,7 +11,7 @@
 ***
 ## **Lets Talk About The _TABLE EDITOR?_ SHALL WE?**
 ***
-##THE WHOLE _TABLE EDITOR_ CONSISTS OF `4` ELEMENTS MANLY 
+## THE WHOLE _TABLE EDITOR_ CONSISTS OF `4` ELEMENTS MANLY 
 1.**THE TABLE EDITOR** 
 ![firstorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/af558804-bfeb-491b-b71e-b11bb8d2e612)
 ***
