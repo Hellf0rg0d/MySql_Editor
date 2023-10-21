@@ -10,9 +10,10 @@
 
 ***
 # THE WHOLE APPLICATION CONSIST OF **3** `SUB-APPLICATIONS` 
-# 1.._TABLE EDITOR_                         
+# 1._TABLE EDITOR_                         
 # 2._AUTHENTICATOR_                    
 # 3._COMMAND INTERPRETER_
+***
 ## **Lets Talk About The _TABLE EDITOR?_ SHALL WE?**
 ***
 ## THE WHOLE _TABLE EDITOR_ CONSISTS OF `4` ELEMENTS MANLY 
