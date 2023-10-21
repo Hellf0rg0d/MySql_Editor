@@ -2,7 +2,7 @@
 ##  SAY NO MORE! 
 ***
 # INTRODUCING MYSQL TABLE EDITOR A GUI 
-![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/443d3788-2011-4401-b27e-a09d2e6fab72)
+![orgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/23967bda-6c40-434e-ae93-b4ec155bfd9f)
 ***
 ![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/ee4233b8-814e-4f58-99a6-a1da6acccfb9)
 ***
