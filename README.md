@@ -14,7 +14,7 @@
 # THE WHOLE APPLICATION CONSIST OF **3** `SUB-APPLICATIONS` 
 # 1._TABLE EDITOR_                         
 # 2._AUTHENTICATOR_                    
-# 3._COMMAND INTERPRETER_
+# 3.[_COMMAND INTERPRETER_](#3command-interpreter)
 ***
 ## **Lets Talk About The _TABLE EDITOR?_ SHALL WE?**
 ***
@@ -34,7 +34,7 @@
 ***
 ***
 # 1 _THE TABLE EDITOR_ 
-## THE TABLE EDITOR Displays the tables returned by executing the commands in the [cui](#cui).
+## THE [TABLE EDITOR](#1the-table-editor) Displays the tables returned by executing the commands in the [cui](#4cui).
 >[!NOTE]
 >It Displays All kind of tables.
 ## On the `TABLE EDITOR` we can edit the table cell by  ` double clicking a particular cell ` which will intern `updates/inserts` data of the table in the connected database.
@@ -44,3 +44,19 @@
 ***
 # 2 _REFRESH BUTTON_
 ## When you click this [button](#2refresh-button) the command executed in the [cui](#4cui) _if the command executed returns any table_ then the particular table will be displayed in the **[TABLE EDITOR](#1the-table-editor)**
+***
+***
+# 3 _COMMAND INTERPRETER_ 
+## The [COMMAND INTERPRETER or CUI](#4cui) is an `Command line user interface` for executing all kinds of commands inside a particular **DATABASE** 
+>[!IMPORTANT]
+>BY DEFAULT THE CUI WILL EXECUTE `select*from<table>;` and if there's any error executing a particular command then when the [refresh](2refresh-button) is pressed the previous command returning a table will be executed this **previous command** can also be `select*from<table>;`
+### ABOUT
+ The errors returned by mysql will be displayed in the CUI itself.    
+ In Order to View the table returned by the executed command the user must click the [refresh](#2refresh-button).   
+ ### non sql commands 
+ The program current has only one _non-sql-command_ which is `help`.       
+ the help command returns few details regarding version of the application, maker, connected table 
+ >[!NOTE]
+>THE APPLICATION IS NOT RESTRICTED TO ONLY ONE TABLE BUT CAN ALSO BE USED TO INTERACT WITH DIFFERENT TABLES AS FAR AS THEY BELONG TO THE SAME DATABASE
+***
+*** # 
