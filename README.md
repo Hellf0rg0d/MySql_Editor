@@ -43,4 +43,4 @@
 >THE TABLES LIKE `INFORMATION SCHEMAS` , `METADATA` ** WILL NOT BE UPDATED/INSERTED ** BUT CAN BE EDITED FOR THE USER-END
 ***
 # 2 _REFRESH BUTTON_
-## When you click this [button](#2.-refresh-button) the command executed in the [cui](#4.-cui) _if the command executed returns any table_ then the particular table will be displayed in the **[TABLE EDITOR](#1.-the-table-editor)**
+## When you click this [button](#2refresh-button) the command executed in the [cui](#4cui) _if the command executed returns any table_ then the particular table will be displayed in the **[TABLE EDITOR](#1the-table-editor)**
