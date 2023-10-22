@@ -14,7 +14,7 @@
 # THE WHOLE APPLICATION CONSIST OF **3** `SUB-APPLICATIONS` 
 # 1._TABLE EDITOR_                         
 # 2._AUTHENTICATOR_                    
-# 3.[_COMMAND INTERPRETER_](#3-command-interpreter)
+# 3.[_COMMAND INTERPRETER_](#4-command-interpreter)
 ***
 ## **Lets Talk About The _TABLE EDITOR?_ SHALL WE?**
 ***
@@ -29,7 +29,7 @@
 ### 3.DELETE BUTTON
 ![thirdorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/e3101223-203f-4b10-ad11-e89469981d0b)
 ***
-### 4.CUI
+### 4.[CUI](#4-command-interpreter)
 ![fourthorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/885d58be-131e-4c8d-a2c5-d165a8daf16c)
 ***
 ***
@@ -45,8 +45,14 @@
 # 2 _REFRESH BUTTON_
 ## When you click this [button](#2refresh-button) the command executed in the [cui](#4cui) _if the command executed returns any table_ then the particular table will be displayed in the **[TABLE EDITOR](#1the-table-editor)**
 ***
+# 3 _DELETE BUTTON_
+## When you click this [button](#3delete-button) the Application will delete the selected *row* and refreshes itself.
+>[!WARNING]
+>IF THE SELECTED ROW HAS A RECURRING VALUE/S THE IT'S BETTER TO DELETE THE ROW BY USING THE COMMAND TO DELETE THE REQUIRED ROW
+
 ***
-# 3 _COMMAND INTERPRETER_ 
+***
+# 4 _COMMAND INTERPRETER_ 
 ## The [COMMAND INTERPRETER or CUI](#4cui) is an `Command line user interface` for executing all kinds of commands inside a particular **DATABASE** 
 >[!IMPORTANT]
 >BY DEFAULT THE CUI WILL EXECUTE `select*from<table>;` and if there's any error executing a particular command then when the [refresh](2refresh-button) is pressed the previous command returning a table will be executed this **previous command** can also be `select*from<table>;`
