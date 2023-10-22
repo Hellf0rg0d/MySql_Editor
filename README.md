@@ -19,21 +19,21 @@
 ## **Lets Talk About The _TABLE EDITOR?_ SHALL WE?**
 ***
 ## THE WHOLE _TABLE EDITOR_ CONSISTS OF `4` ELEMENTS MANLY 
-1.**THE TABLE EDITOR** 
+### 1.THE TABLE EDITOR 
 ![firstorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/747f908f-dda1-4ed1-bea3-bcf2d518dd0f)
 ***
-2.**REFRESH BUTTON**
+### 2.REFRESH BUTTON
 ![secondorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/efd824be-bfaf-450a-9477-14e695e6368b)
 
 ***
-3.**DELETE BUTTON**
+### 3.DELETE BUTTON
 ![thirdorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/e3101223-203f-4b10-ad11-e89469981d0b)
 ***
-4.**CUI**
+### 4.CUI
 ![fourthorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/885d58be-131e-4c8d-a2c5-d165a8daf16c)
 ***
 ***
-# 1** _THE TABLE EDITOR_ **
+# 1 _THE TABLE EDITOR_ 
 ## THE TABLE EDITOR Displays the tables returned by executing the commands in the [cui](#cui).
 >[!NOTE]
 >It Displays All kind of tables.
