@@ -14,7 +14,7 @@
 # THE WHOLE APPLICATION CONSIST OF **3** `SUB-APPLICATIONS` 
 # 1._TABLE EDITOR_                         
 # 2._AUTHENTICATOR_                    
-# 3.[_COMMAND INTERPRETER_](#3command-interpreter)
+# 3.[_COMMAND INTERPRETER_](#3-command-interpreter)
 ***
 ## **Lets Talk About The _TABLE EDITOR?_ SHALL WE?**
 ***
