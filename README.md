@@ -55,9 +55,10 @@
 ***
 ***
 # 4 _COMMAND INTERPRETER_ 
+![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/a518fdac-4405-4ee6-a9bc-9123530a713f)
 ## The [COMMAND INTERPRETER or CUI](#4cui) is an `Command line user interface` for executing **_all kinds_** of commands inside a particular **DATABASE** 
 >[!IMPORTANT]
->BY DEFAULT THE CUI WILL EXECUTE `select*from<table>;` and if there's any error executing a particular command then when the [refresh](2refresh-button) is pressed the previous command returning a table will be executed this **previous command** can also be `select*from<table>;`
+>BY DEFAULT THE CUI WILL EXECUTE `select*from<table>;` and if there's any error executing a particular command then when the [refresh](#2refresh-button) is pressed the previous command returning a table will be executed this **previous command** can also be `select*from<table>;`
 ### ABOUT
  The errors returned by mysql will be displayed in the CUI itself.    
  In Order to View the table returned by the executed command the user must click the [refresh](#2refresh-button).   
