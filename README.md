@@ -29,12 +29,12 @@
 3.**DELETE BUTTON**
 ![thirdorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/e3101223-203f-4b10-ad11-e89469981d0b)
 ***
-4.**CUI _(Command line user interface to communicate with the respective database)_**
+4.**CUI**
 ![fourthorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/885d58be-131e-4c8d-a2c5-d165a8daf16c)
 ***
 ***
 # 1** _THE TABLE EDITOR_ **
-##THE TABLE EDITOR Displays the tables returned by executing the commands in the [cui](#cui).
+## THE TABLE EDITOR Displays the tables returned by executing the commands in the [cui](#cui).
 >[!NOTE]
 >It Displays All kind of tables.
 ## On the `TABLE EDITOR` we can edit the table cell by  ` double clicking a particular cell ` which will intern `updates/inserts` data of the table in the connected database.
@@ -42,5 +42,5 @@
 >[!IMPORTANT]
 >THE TABLES LIKE `INFORMATION SCHEMAS` , `METADATA` ** WILL NOT BE UPDATED/INSERTED ** BUT CAN BE EDITED FOR THE USER-END
 ***
-# 2**_REFRESH BUTTON_**
-## When you click this [button](#refresh-button) the command executed in the [cui](#cui) _if the command executed returns any table_ then the particular table will be displayed in the **[TABLE EDITOR](#1-the-table-editor)**
+# 2 _REFRESH BUTTON_
+## When you click this [button](#2.-refresh-button) the command executed in the [cui](#4.-cui) _if the command executed returns any table_ then the particular table will be displayed in the **[TABLE EDITOR](#1.-the-table-editor)**
