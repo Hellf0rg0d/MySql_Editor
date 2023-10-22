@@ -34,10 +34,13 @@
 ***
 ***
 # 1** _THE TABLE EDITOR_ **
+##THE TABLE EDITOR Displays the tables returned by executing the commands in the [cui](#cui).
+>[!NOTE]
+>It Displays All kind of tables.
 ## On the `TABLE EDITOR` we can edit the table cell by  ` double clicking a particular cell ` which will intern `updates/inserts` data of the table in the connected database.
 ![man](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/137d43f1-438b-4ebf-839c-783eb3fcd327)
 >[!IMPORTANT]
 >THE TABLES LIKE `INFORMATION SCHEMAS` , `METADATA` ** WILL NOT BE UPDATED/INSERTED ** BUT CAN BE EDITED FOR THE USER-END
 ***
 # 2**_REFRESH BUTTON_**
-## When you click this [button](#refresh-button) the command executed in the [cui](#cui) _ if the command executed returns any table _ then the particular table will be displayed in the **[TABLE EDITOR](#the-table-editor)**
+## When you click this [button](#refresh-button) the command executed in the [cui](#cui) _if the command executed returns any table_ then the particular table will be displayed in the **[TABLE EDITOR](#1-the-table-editor)**
