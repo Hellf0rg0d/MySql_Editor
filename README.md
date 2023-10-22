@@ -32,6 +32,12 @@
 4.**CUI _(Command line user interface to communicate with the respective database)_**
 ![fourthorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/885d58be-131e-4c8d-a2c5-d165a8daf16c)
 ***
-## On the `TABLE EDITOR` we can edit the table cell by  ` **double clicking a particular cell** ` which will intern `updates/inserts` data of the table in the connected database.
+***
+# 1**_THE TABLE EDITOR_**
+## On the `TABLE EDITOR` we can edit the table cell by  ` double clicking a particular cell ` which will intern `updates/inserts` data of the table in the connected database.
+>[!IMPORTANT]
+>THE TABLES LIKE `INFORMATION SCHEMAS` , `METADATA` ** WILL NOT BE UPDATED/INSERTED ** BUT CAN BE EDITED FOR THE USER-END
 ![man](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/137d43f1-438b-4ebf-839c-783eb3fcd327)
-
+***
+# 2**_REFRESH BUTTON_**
+## When you click this [button](#refresh-button) the command executed in the [cui](#cui) _if the command executed returns anytable[^1]_then the particular table will be displayed in the **[TABLE EDITOR](#the-table-editor)**
