@@ -77,6 +77,6 @@
 + "User" has to be filled with the required **USER NAME**
 + "PassWord" has to be filled with the required **PASSWORD** For the Username
   ***
-# DOWNLOAD IT FROM [HERE](How-to-Download.md)
+# DOWNLOAD IT FROM [HERE](How to Download.md)
 # SEND ME THE FEEDBACKS/BUGS/REPORTS ABOUT THIS APPLICATION HERE - nhmkar@gmail.com.
 # STAY TUNED FOR FUTURE UPDATES/FIXES.
