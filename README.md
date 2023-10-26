@@ -40,16 +40,16 @@
 ***
 # 1 _THE TABLE EDITOR_ 
 ## THE [TABLE EDITOR](#1the-table-editor) Displays the tables returned by executing the commands in the [cui](#4cui).
->[!NOTE]
->It Displays All kind of tables.
-## On the `TABLE EDITOR` we can edit the table cell by  `double clicking a particular cell` which will execute `updates/inserts` statements on the data of the table in the connected database.
 >[!IMPORTANT]
->Inorder to actually edit the table both user and on the database the user must be connected to the Table _[read more about it here](#2-to-change-database--table-mid-way-or-a--if-change-of-mind)_
+>Inorder to actually edit the table both user-end and on the database the user must be connected to the Table _[read more about it here](#2-to-change-database--table-mid-way-or-a--if-change-of-mind)_
+
+## On the `TABLE EDITOR` we can edit the table cell by  `double clicking a particular cell` which will execute `updates/inserts` statements on the data of the table in the connected database.
+
 ## The Edited Data Of The Cell Can Be Saved by Pressing ` enter ` Key Or ` tab ` Key.
 ![man](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/3ec83b26-329a-46fc-b1c9-45ba1e6c63fd)
 
 >[!IMPORTANT]
->THE TABLES LIKE `INFORMATION SCHEMAS` , `METADATA` ** WILL NOT BE UPDATED/INSERTED ** BUT CAN BE EDITED FOR THE USER-END
+>THE TABLES LIKE `INFORMATION SCHEMAS` , `METADATA` **WILL NOT BE UPDATED/INSERTED** BUT CAN BE EDITED FOR THE USER-END
 ***
 # 2 _REFRESH BUTTON_
 ## When you click this [button](#2refresh-button) the command executed in the [cui](#4cui) _if the command executed returns any table_ then the particular table will be displayed in the **[TABLE EDITOR](#1the-table-editor)**
@@ -72,8 +72,6 @@
  ### non sql commands 
  The program current has only one _non-sql-command_ which is `help`.       
  the help command returns few details regarding version of the application, maker, connected table 
- >[!NOTE]
->THE APPLICATION IS NOT RESTRICTED TO ONLY ONE TABLE BUT CAN ALSO BE USED TO INTERACT WITH DIFFERENT TABLES AS FAR AS THEY BELONG TO THE SAME DATABASE
 ***
 *** 
 # _THE AUTHENTICATOR_ 
