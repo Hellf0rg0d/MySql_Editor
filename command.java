@@ -128,6 +128,8 @@ public class command extends JFrame {
 		 * and authe.serv retrives data from the local file(if it exists) 
 		 * if the user setups a new connection 
 		 * inorder to update variables it is called from tableEditor
+                 * yes it's a jfk reference 
+                 * I hope the code blows your mind like he had his ;)
 		 */
 		if(jfk == 0) {
 		textArea.setText(textArea.getText().toString().trim()+"\n"+server+"->");
