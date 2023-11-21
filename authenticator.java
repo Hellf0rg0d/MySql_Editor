@@ -2,12 +2,14 @@ package sql;
 
 import java.awt.EventQueue;
 import java.awt.Font;
+import java.awt.GraphicsEnvironment;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
 import java.io.FileWriter;
+import java.io.InputStream;
 import java.io.PrintWriter;
 import java.sql.DriverManager;
 import java.util.Scanner;
@@ -25,6 +27,8 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.border.EmptyBorder;
 
+import com.formdev.flatlaf.FlatClientProperties;
+import com.formdev.flatlaf.FlatLaf;
 import com.formdev.flatlaf.themes.FlatMacDarkLaf;
 //import com.mysql.jdbc.Connection;
 //import com.mysql.jdbc.ResultSet;
@@ -34,8 +38,9 @@ import java.awt.event.KeyEvent;
 import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 
-public class auth extends JFrame {
+public class auth  {
 	public JLabel errortxt ;
+	public JFrame authe_frame;
 	private JPanel contentPane;
 	JButton connect_btn;
 	public boolean icon_clk , fie =false,full = false,edit = false;
@@ -44,6 +49,7 @@ public class auth extends JFrame {
 	private File file2 = new File(loc+"\\data.pablo");
 	public 	JTextField us ;
 	public String id,passw,serv,table;
+	private Font RobotoCondensed;
 	public 	JTextField visible;
 	public  java.sql.Statement stmt;
 	public java.sql.Connection con;
@@ -60,9 +66,8 @@ public class auth extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					UIManager.setLookAndFeel(new FlatMacDarkLaf());
 					auth frame = new auth();
-					frame.setVisible(true);
+					frame.authe_frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -74,9 +79,22 @@ public class auth extends JFrame {
 	 * Create the frame.
 	 */
 	public auth() {
-		setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+		FlatLaf.setup(new FlatMacDarkLaf());
+		authe_frame = new JFrame();
+		authe_frame.setResizable(false);
+		
+		authe_frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 	try {
 		try {
+			try {
+				InputStream is = getClass().getResourceAsStream("/textfont/RobotoCondensed-Regular.ttf");
+				RobotoCondensed = Font.createFont(Font.TRUETYPE_FONT,is);    
+				GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
+				ge.registerFont(Font.createFont(Font.TRUETYPE_FONT,is));
+				}
+			catch(Exception ex) {
+				ex.printStackTrace();
+			}
 		if(file2.exists()) {
 			file2.renameTo(file1);
 			Scanner sc = new Scanner(file1);
@@ -93,40 +111,41 @@ public class auth extends JFrame {
 		catch(Exception ex) {
 			ex.printStackTrace();
 		}
-		setVisible(true);
-		setBounds(100, 100, 426, 305);
-		getContentPane().setLayout(null);
+		authe_frame.setVisible(true);
+		authe_frame.	setBounds(100, 100, 431, 328);
+		authe_frame.getContentPane().setLayout(null);
 		JLabel lblNewLabel_6 = new JLabel("Password:");
-		lblNewLabel_6.setFont(new Font("Arial", Font.PLAIN, 16));
-		lblNewLabel_6.setBounds(70, 190, 75, 15);
-		getContentPane().add(lblNewLabel_6);
-		setTitle("Log-in");
+		lblNewLabel_6.setFont(new Font("RobotoCondensed", Font.PLAIN, 16));
+		lblNewLabel_6.setBounds(70, 213, 75, 15);
+		authe_frame.getContentPane().add(lblNewLabel_6);
+		authe_frame.setTitle("Log-in");
 		
 		JLabel lblNewLabel = new JLabel("");
 		lblNewLabel.setIcon(new ImageIcon(auth.class.getResource("/icon/icons8-database-50 white.png")));
 	
 //		lblNewLabel.setIcon(new ImageIcon(Main.class.getResource("/bill/icons/mysql.png")));
-		lblNewLabel.setBounds(10, 142, 50, 50);
-		getContentPane().add(lblNewLabel);
+		lblNewLabel.setBounds(10, 157, 50, 50);
+		authe_frame.getContentPane().add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("WELCOME BACK !!");
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_1.setFont(new Font("Malgun Gothic", Font.BOLD, 20));
-		lblNewLabel_1.setBounds(10, 4, 390, 53);
-		getContentPane().add(lblNewLabel_1);
+		lblNewLabel_1.setFont(new Font("RobotoCondensed", Font.BOLD, 20));
+		lblNewLabel_1.setBounds(10, 4, 390, 60);
+		authe_frame.getContentPane().add(lblNewLabel_1);
 		
 		JLabel lblNewLabel_3 = new JLabel("DB name :");
-		lblNewLabel_3.setFont(new Font("Arialq", Font.PLAIN, 15));
-		lblNewLabel_3.setBounds(70, 68, 75, 14);
-		getContentPane().add(lblNewLabel_3);
+		lblNewLabel_3.setFont(new Font("RobotoCondensed", Font.PLAIN, 15));
+		lblNewLabel_3.setBounds(70, 75, 75, 14);
+		authe_frame.getContentPane().add(lblNewLabel_3);
 		
 		JLabel lblNewLabel_5 = new JLabel("User:");
-		lblNewLabel_5.setFont(new Font("Arial", Font.PLAIN, 16));
-		lblNewLabel_5.setBounds(89, 149, 46, 14);
-		getContentPane().add(lblNewLabel_5);
+		lblNewLabel_5.setFont(new Font("RobotoCondensed", Font.PLAIN, 16));
+		lblNewLabel_5.setBounds(99, 163, 46, 14);
+		authe_frame.getContentPane().add(lblNewLabel_5);
 		
 		db_name = new JTextField(serv);
-		db_name.setFont(new Font("Arial", Font.PLAIN, 13));
+		db_name.putClientProperty(FlatClientProperties.STYLE, "arc : 15");
+		db_name.setFont(new Font("RobotoCondensed", Font.PLAIN, 15));
 		db_name.setHorizontalAlignment(SwingConstants.CENTER);
 		db_name.addKeyListener(new KeyAdapter() {
 			@Override
@@ -138,10 +157,11 @@ public class auth extends JFrame {
 				
 			}
 		});
-		db_name.setBounds(157, 61, 187, 30);
-		getContentPane().add(db_name);
+		db_name.setBounds(157, 65, 187, 35);
+		authe_frame.	getContentPane().add(db_name);
 		db_name.setColumns(10);
 		pass = new JPasswordField();
+		pass.putClientProperty(FlatClientProperties.STYLE, "arc : 15");
 		pass.setHorizontalAlignment(SwingConstants.CENTER);
 		pass.addKeyListener(new KeyAdapter() {
 			@Override
@@ -153,11 +173,12 @@ public class auth extends JFrame {
 			}
 		});
 		pass.setEchoChar('*');
-		pass.setFont(new Font("Arial", Font.PLAIN, 13));
-		pass.setBounds(157, 184, 187, 30);
-		getContentPane().add(pass);
+		pass.setFont(new Font("RobotoCondensed", Font.PLAIN, 15));
+		pass.setBounds(157, 205, 187, 35);
+		authe_frame.getContentPane().add(pass);
 		us = new JTextField(id);
-		us.setFont(new Font("Arial", Font.PLAIN, 13));
+		us.putClientProperty(FlatClientProperties.STYLE, "arc : 15");
+		us.setFont(new Font("RobotoCondensed", Font.PLAIN, 15));
 		us.setHorizontalAlignment(SwingConstants.CENTER);
 		us.addKeyListener(new KeyAdapter() {
 			@Override
@@ -168,10 +189,11 @@ public class auth extends JFrame {
 				}
 			}
 		});
-		us.setBounds(157, 143, 187, 30);
-		getContentPane().add(us);
+		us.setBounds(157, 158, 187, 35);
+		authe_frame.getContentPane().add(us);
 	visible = new JTextField();
-	visible.setFont(new Font("Arial", Font.PLAIN, 13));
+	visible.setFont(new Font("RobotoCondensed", Font.PLAIN, 15));
+	visible.putClientProperty(FlatClientProperties.STYLE, "arc : 15");
 	visible.setHorizontalAlignment(SwingConstants.CENTER);
 	visible.addKeyListener(new KeyAdapter() {
 		@Override
@@ -183,7 +205,9 @@ public class auth extends JFrame {
 		}
 	});
 		 connect_btn = new JButton("Connect");
-		connect_btn.setBounds(109, 225, 100, 30);
+		connect_btn.setBounds(99, 251, 100, 30);
+		connect_btn.setFont(new Font("RobotoCondensed", Font.PLAIN, 15));
+		connect_btn.putClientProperty(FlatClientProperties.STYLE, "arc : 15");
 		connect_btn.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e) {
 			//	id = null;serv = null;table = null;
@@ -230,7 +254,7 @@ public class auth extends JFrame {
 			  stmt=con.createStatement();
 			int exit = JOptionPane.showOptionDialog(null, "Connected Succesfully", "info", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, null, null);
 			if(exit == JOptionPane.OK_OPTION) {
-				dispose();
+				authe_frame.dispose();
 			}
 				}
 				catch(Exception ex) {
@@ -242,14 +266,14 @@ public class auth extends JFrame {
 								id_tb.requestFocusInWindow();
 						}
 							else {
-								dispose();
+								authe_frame.dispose();
 							}
 					}
 			}
 		});
-		getContentPane().add(connect_btn);
-		visible.setBounds(157, 184, 187, 30);
-		getContentPane().add(visible);
+		authe_frame.getContentPane().add(connect_btn);
+		visible.setBounds(157, 205, 187, 35);
+		authe_frame.getContentPane().add(visible);
 		icon = new JButton("");
 		icon.setIcon(new ImageIcon(auth.class.getResource("/icon/icons8-eye-24.png")));
 		icon.addActionListener(new ActionListener() {
@@ -266,7 +290,7 @@ public class auth extends JFrame {
 					visible.setVisible(true);
 					pass.setVisible(false);
 					visible.setText(pass.getText());
-					getContentPane().add(pass);
+					authe_frame.getContentPane().add(pass);
 				//	passw = visible.getText().toString();
 				}
 				else {
@@ -275,16 +299,18 @@ public class auth extends JFrame {
 					visible.setVisible(false);
 					pass.setVisible(true);
 					pass.setText(visible.getText());
-					getContentPane().add(pass);
-					getContentPane().add(visible);
+					authe_frame.getContentPane().add(pass);
+					authe_frame.getContentPane().add(visible);
 				//s	passw = pass.getText().toString();
 				}
 			}
 		});
-		icon.setBounds(366, 186, 28, 28);
-		getContentPane().add(icon);
+		icon.setBounds(372, 208, 28, 28);
+		authe_frame.getContentPane().add(icon);
 		
 	neW = new JButton("New connection");
+	neW.putClientProperty(FlatClientProperties.STYLE, "arc : 15");
+	neW.setFont(new Font("RobotoCondensed", Font.PLAIN, 15));
 		neW.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(icon.isEnabled() == false || pass.isEnabled() == false || visible.isEnabled() == false || db_name.isEnabled() == false) {
@@ -302,16 +328,17 @@ public class auth extends JFrame {
 			db_name.requestFocusInWindow();
 			}
 		});
-		neW.setBounds(236, 225, 128, 30);
-		getContentPane().add(neW);
+		neW.setBounds(219, 250, 145, 30);
+		authe_frame.getContentPane().add(neW);
 		
 		JLabel lblNewLabel_4 = new JLabel("Table Name :");
-		lblNewLabel_4.setFont(new Font("Arial", Font.PLAIN, 15));
-		lblNewLabel_4.setBounds(53, 100, 92, 30);
-		getContentPane().add(lblNewLabel_4);
+		lblNewLabel_4.setFont(new Font("RobotoCondensed", Font.PLAIN, 15));
+		lblNewLabel_4.setBounds(53, 111, 92, 30);
+		authe_frame.getContentPane().add(lblNewLabel_4);
 		
 		id_tb = new JTextField();
-		id_tb.setFont(new Font("Segoe UI Semilight", Font.PLAIN, 13));
+		id_tb.putClientProperty(FlatClientProperties.STYLE, "arc : 15");
+		id_tb.setFont(new Font("RobotoCondensed", Font.PLAIN, 15));
 		id_tb.addFocusListener(new FocusAdapter() {
 			@Override
 			public void focusGained(FocusEvent e) {
@@ -338,10 +365,11 @@ public class auth extends JFrame {
 				}
 			}
 		});
-		id_tb.setBounds(157, 102, 187, 30);
-		getContentPane().add(id_tb);
+		id_tb.setBounds(157, 110, 187, 35);
+		authe_frame.getContentPane().add(id_tb);
 		id_tb.setColumns(10);
-		requestFocusInWindow();
+		authe_frame.requestFocusInWindow();
+		System.out.println(connect_btn.getFont().toString());
 	}
 	
 	catch(Exception ex) {
@@ -351,21 +379,21 @@ public class auth extends JFrame {
 }
 	public void tty(String err) {
 		
-		setResizable(true);
-		setTitle("Authentication");
-		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		setBounds(300, 100, 600, 130);
+		authe_frame.setResizable(true);
+		authe_frame.setTitle("Authentication");
+		authe_frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		authe_frame.setBounds(300, 100, 600, 130);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		setContentPane(contentPane);
+		authe_frame.setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
 		JButton btnNewButton = new JButton("CANCEL");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				auth frame = new auth();
-				frame.setVisible(true);
-				dispose();
+			authe_frame.dispose();
+			auth nauth = new auth();
+			nauth.authe_frame.setVisible(true);
 			}
 		});
 		btnNewButton.setBounds(400, 65, 100, 23);
@@ -375,13 +403,13 @@ public class auth extends JFrame {
 		btnNewButton_1.requestFocusInWindow();
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-			dispose();
+			authe_frame.dispose();
 			}
 		});
 		btnNewButton_1.setBounds(300, 65, 100, 23);
 		contentPane.add(btnNewButton_1);
 		errortxt= new JLabel(err);
-		errortxt.setFont(new Font("Arial",Font.PLAIN,15));
+		errortxt.setFont(new Font("RobotoCondensed",Font.PLAIN,15));
 		errortxt.setHorizontalAlignment(SwingConstants.LEFT);
 		errortxt.setBounds(5, 5, 1000, 50);
 		contentPane.add(errortxt);
@@ -389,7 +417,7 @@ public class auth extends JFrame {
 		JLabel icon = new JLabel("");
 		icon.setBounds(10, 11, 48, 48);
 		contentPane.add(icon);
-		SwingUtilities.updateComponentTreeUI(this);
+		SwingUtilities.updateComponentTreeUI(authe_frame);
 		
 	}
 }
