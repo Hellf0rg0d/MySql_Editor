@@ -2,25 +2,33 @@
 ##  SAY NO MORE! 
 ***
 # INTRODUCING MYSQL TABLE EDITOR A GUI 
-![orgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/de802ab1-e066-44b3-ba77-0784a4310474)
+![orgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/cc1358cc-8551-45f2-9684-e80e8c4a7dab)
 
 ***
-![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/c2c63d87-27de-40bb-9f37-9e98eb014420)
+![tempimg](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/de1529e4-931d-4102-9b8f-6411992a9e9e)
 
 ***
-![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/a518fdac-4405-4ee6-a9bc-9123530a713f)
+![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/9d6691db-99fb-4891-9b48-7636055f5b70)
+
+***
+![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/dcdb3405-fc1f-45a7-8910-480d86fc6cda)
+
+***
+![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/2437be8f-7e6b-4057-9042-c072d19b4dc2)
 
 >[!IMPORTANT]
 >THE USER **MUST HAVE** MYSQL SERVER 8.0 OR LATER WITH AUTHENTICATION PROTOCOL ENABLED AND INSTALLED ON THE DEVICE ON WHICH THIS APPLICATION IS TO BE USED
 ***
-# THE WHOLE APPLICATION CONSIST OF **3** `SUB-APPLICATIONS` 
+# THE WHOLE APPLICATION CONSIST OF **5** `SUB-APPLICATIONS` 
 # 1.[_TABLE EDITOR_](#1-the-table-editor)                        
 # 2.[_AUTHENTICATOR_](#the-authenticator)                  
 # 3.[_COMMAND INTERPRETER_](#4-command-interpreter)
+# 4.[_Logger_](#5-logger)
+# 5.[_Themes_](#6-themes)
 ***
 ## **Lets Talk About The _TABLE EDITOR?_ SHALL WE?**
 ***
-## THE WHOLE _TABLE EDITOR_ CONSISTS OF `4` ELEMENTS MAINLY 
+## THE WHOLE _TABLE EDITOR_ CONSISTS OF `6` ELEMENTS MAINLY 
 ### 1.THE TABLE EDITOR
 ![firstorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/879157bf-cffe-4926-9b2c-1d4a6a583985)
 
@@ -37,6 +45,11 @@
 ![fourthorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/a82ee698-e30c-46c3-8380-78ee59e9d629)
 
 ***
+### 5.Logger
+![sixthorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/551f2905-b837-438d-b63d-408ffc70c782)
+***
+### 6.Themes
+![seventhorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/30646adb-c88f-40b8-9d10-0eb99ff5f19b)
 ***
 # 1 _THE TABLE EDITOR_ 
 ## THE [TABLE EDITOR](#1the-table-editor) Displays the tables returned by executing the commands in the [cui](#4cui).
@@ -58,13 +71,10 @@
 ***
 # 3 _DELETE BUTTON_
 ## When you click this [button](#3delete-button) the Application will delete the selected *row* and refreshes itself.
->[!WARNING]
->IF THE SELECTED ROW HAS A RECURRING VALUE/S THE IT'S BETTER TO DELETE THE ROW BY USING THE COMMAND TO DELETE THE REQUIRED ROW
-
 ***
 ***
 # 4 _COMMAND INTERPRETER_ 
-![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/a518fdac-4405-4ee6-a9bc-9123530a713f)
+![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/9d6691db-99fb-4891-9b48-7636055f5b70)
 ## The [COMMAND INTERPRETER or CUI](#4cui) is an `Command line user interface` for executing **_all kinds_** of commands inside a particular **DATABASE** 
 >[!IMPORTANT]
 >if there's any error executing a particular command then when the [refresh](#2refresh-button) is pressed the previous command returning a table will be executed this **previous command** can also be `select*from<table>;`
@@ -74,6 +84,20 @@
  ### non sql commands 
  The program current has only one _non-sql-command_ which is `help`.       
  the help command returns few details regarding version of the application, maker, connected table 
+***
+# 5 _Logger_
+![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/56073582-93a7-4340-b5a6-102699828f92)
+## The Logger logs the commands executed by the user on the [TABLE EDITOR](#1the-table-editor) and the [COMMAND INTERPRETER or CUI](#4cui)
+*** 
+# 6 _Themes_
+
+![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/043249d5-589c-4a89-9e45-f4b098f815ec)
+## Theme can be changed by clicking on any component and selecting a particular theme 
+## you can keep theme for each comoponent a different one 
+![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/cd9605f1-0219-4f24-a611-7f706b892632)
+## Currently there're only 20 themes but i'll add few more soon!! 
+> [!NOTE]
+> # ALL the themes are from [flatlaf](https://www.formdev.com/flatlaf/)
 ***
 *** 
 # _THE AUTHENTICATOR_ 
