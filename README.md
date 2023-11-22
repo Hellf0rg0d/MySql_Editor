@@ -83,7 +83,7 @@
  In Order to View the table returned by the executed command the user must click the [refresh](#2refresh-button).   
  ### non sql commands 
  The program current has only two _non-sql-command_ which is `help`, `clear`.       
- the `help` command returns few details regarding version of the application, maker, connected table 
+ the `help` command returns few details regarding version of the application, maker, connected table     
  the `clear` command clears the screen of the cui
 ***
 # 5 _Logger_
