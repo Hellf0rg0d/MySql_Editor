@@ -115,7 +115,7 @@
 + "User" has to be filled with the required **USER NAME**
 + "PassWord" has to be filled with the required **PASSWORD** For the Username
   ***
-# 2. TO CHANGE `DATABASE / TABLE` MID-WAY OR A  OF CHANGE OF MIND 
+# 2. TO CHANGE `DATABASE / TABLE` MID-WAY OR A CHANGE OF MIND 
 ## THE USER MUST CLICK HERE  - 
 ![fifthorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/8c037faa-2029-4419-b226-abc3cba9befb)!
 
