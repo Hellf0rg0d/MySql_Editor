@@ -106,7 +106,7 @@
 ## THE AUTHENTICATOR CAN BE USED & ACCESSED IN TWO WAYS 
 ***
 # 1. ON STARTUP - 
-**When the Application is Launched the Authenticator Boots up by itself and _if_ the user wants to connect to a database he can do the following -**       
+**When the Application is Launched the Authenticator Boots up by itself and _if_ the user wants to connect to a database the user can do the following -**       
 
 ![image](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/c2c63d87-27de-40bb-9f37-9e98eb014420)
 ## The Authenticator Consists of 4 TextFields        
@@ -115,7 +115,7 @@
 + "User" has to be filled with the required **USER NAME**
 + "PassWord" has to be filled with the required **PASSWORD** For the Username
   ***
-# 2. TO CHANGE `DATABASE / TABLE` MID-WAY OR A  IF CHANGE OF MIND 
+# 2. TO CHANGE `DATABASE / TABLE` MID-WAY OR A  OF CHANGE OF MIND 
 ## THE USER MUST CLICK HERE  - 
 ![fifthorgy](https://github.com/Hellf0rg0d/MySql_Editor/assets/93775719/8c037faa-2029-4419-b226-abc3cba9befb)!
 
