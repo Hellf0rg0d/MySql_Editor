@@ -641,7 +641,7 @@ String initial_text;
 public static String primaryKey(String id,String pass,String serv,String table) throws Exception{
 		String finalprikey;
 		DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-		 java.sql.Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/"+serv+"?characterEncoding=latin1",id,"Kartik-123@123");
+		 java.sql.Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/"+serv+"?characterEncoding=latin1",id,pass);
 	    java.sql.Statement stmt  = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
 	    java.sql.ResultSet rss = stmt.executeQuery("SHOW INDEX FROM "+table+" where Key_name = 'PRIMARY';");
 		rss.next();
